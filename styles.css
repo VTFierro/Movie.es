@@ -8,11 +8,11 @@ html {
 }
 @font-face {
     font-family: 'icomoon';
-    src:  url("/icomoon/fonts/icomoon.eot?wumijm");
-    src:  url('/icomoon/fonts/icomoon.eot?wumijm#iefix') format('embedded-opentype'),
-    url('/icomoon/fonts/icomoon.ttf?wumijm') format('truetype'),
-    url('/icomoon/fonts/icomoon.woff?wumijm') format('woff'),
-    url('/icomoon/fonts/icomoon.svg?wumijm#icomoon') format('svg');
+    src:  url('/Movi.es/fonts/icomoon.eot?wumijm');
+    src:  url('/Movi.es/fonts/icomoon.eot?wumijm#iefix') format('embedded-opentype'),
+    url('/Movi.es/fonts/icomoon.ttf?wumijm') format('truetype'),
+    url('/Movi.es/fonts/icomoon.woff?wumijm') format('woff'),
+    url('/Movi.es/fonts/icomoon.svg?wumijm#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -85,6 +85,7 @@ header {
     display: flex;
     align-items: center;
     font-family: Arial;
+    margin-left: 30rem;
 }
 .user span {
     color: #3f3f3f;
@@ -101,6 +102,8 @@ header {
     width: 4.5rem;
 }
 .icon-caret-down {
-    font-size: 3.5rem;
+    color: #3f3f3f;
+    font-size: 2.5rem;
     margin: 1rem;
+    text-decoration: none;
 }
