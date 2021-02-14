@@ -126,9 +126,8 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
-.sidebar__button:hover {
-    background-color: white;
-    color: rgba(254,82,88,1);
+.sidebar__button span {
+    margin-top: 1rem;
 }
 .sidebar__button a {
     text-decoration: none;
@@ -138,3 +137,24 @@ header {
 .sidebar__button i {
     font-size: 7rem;
 }
+.sidebar__button__gear {
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30rem;
+}
+.sidebar__button__gear a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
+.sidebar__button__gear i {
+    font-size: 7rem;
+}
+
+/*------------------MAIN GRID STYLES-------------*/
