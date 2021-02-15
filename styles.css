@@ -163,25 +163,54 @@ main {
     display: flex;
 }
 .grid-menu {
-    border: solid red 2px;
     width: 92vw;
+    height: 92.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .15fr 1fr .15fr 1fr .15fr 1fr;
+    grid-template-areas: "cat1 cat1 cat1" ". . ." "cat2 cat2 cat2" ". . ." "cat3 cat3 cat3";
+    justify-items: center;
+    align-items: center;
 }
 h1 {
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #3f3f3f;
     margin: 1rem;
+    left: 0;
 }
 .movie-item {
-    width: 468px;
+    width: 400px;
+    height: auto;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.movie-item figure img {
+    max-width: 100%;
+    height: auto;
 }
 .movie-item__description {
     background-color: rgba(254,82,88,.8);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1rem;
     font-size: 1.5rem;
+    position: absolute;
+    bottom: 0.1rem;
+    padding: 1rem;
 }
-figure {
-    overflow: hidden;
+h2 {
+    margin: 1rem 0;
 }
+.cat1 {
+    grid-area: cat1;
+}
+.cat2 {
+    grid-area: cat2;
+}
+.cat3 {
+    grid-area: cat3;
+}
+
+
+
